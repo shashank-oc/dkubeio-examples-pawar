@@ -1,7 +1,6 @@
-conda_env:
-  path: conda_env.yaml
-
-docker_envs:
-   - ocdr/custom-training:latest
-
-Dockerfile: Dockerfile
+images:
+  path: images
+  images:
+    - name: my-image1
+    - name: my-image2
+      base_image: python:alpine
