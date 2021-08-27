@@ -1,5 +1,7 @@
-jobs:
-  path: jobs
-  jobs:
-    - name: train.yaml
-      run: true
+conda_env:
+  path: conda_env.yaml
+
+docker_envs:
+   - ocdr/custom-training:latest
+
+Dockerfile: Dockerfile
