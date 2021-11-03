@@ -1,2 +1,6 @@
-docker_envs:
-   - ocdr/d3-datascience-tf-cpu:v1.14-6
+images:
+  path: images
+  images:
+    - name: my-image1
+    - name: my-image2
+      base_image: python:alpine
