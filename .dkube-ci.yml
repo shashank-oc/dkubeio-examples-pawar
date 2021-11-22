@@ -1,5 +1,2 @@
-jobs:
-  path: jobs
-  jobs:
-    - name: train.yaml
-      run: true
+docker_envs:
+   - ocdr/d3-datascience-tf-cpu:v1.14-6
