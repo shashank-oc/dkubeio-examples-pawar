@@ -1,12 +1,8 @@
-name: dkube-env
-channels:
-  - conda-forge
-  - defaults
+conda_env:
+  path: conda_env.yaml
 
-dependencies:
-  - python=3.8
-  - pip
-  - pip:
-    - scikit-learn
-    - kfserving
+docker_envs:
+   - ocdr/custom-training:latest
+
+Dockerfile: Dockerfile
 
