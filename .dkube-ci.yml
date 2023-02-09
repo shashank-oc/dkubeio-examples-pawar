@@ -1,2 +1,8 @@
+conda_env:
+  path: conda_env.yaml
+
 docker_envs:
-   - ocdr/d3-datascience-tf-cpu:v1.14-6
+   - ocdr/custom-training:latest
+
+Dockerfile: Dockerfile
+
