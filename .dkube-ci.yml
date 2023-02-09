@@ -1,2 +1,5 @@
 Dockerfile: Dockerfile
 
+conda_env:
+  path: conda_env.yaml
+
